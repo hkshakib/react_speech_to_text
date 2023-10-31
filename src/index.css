@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .SideBarButton {
+        @apply w-[200px] h-12 border mb-2;
+    }
+}
