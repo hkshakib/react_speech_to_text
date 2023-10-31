@@ -5,6 +5,6 @@
 
 @layer components {
     .SideBarButton {
-        @apply w-[200px] h-12 border mb-2;
+        @apply flex gap-[4px] text-[14px] justify-stretch items-center w-[208px] h-[44px] mb-2 px-[12px] py-[16px] rounded hover:bg-[#E0EDFF];
     }
 }
