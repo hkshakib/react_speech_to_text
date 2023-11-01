@@ -1,7 +1,8 @@
 import React from "react";
+import Banner from "./Banner";
+import HistoryTable from "./HistoryTable";
 import Navbar from "./Navbar";
 import Utility from "./Utility";
-import Banner from "./Banner";
 
 import Files from "../static/files.svg";
 import Saved from "../static/saved.svg";
@@ -23,8 +24,8 @@ const Main = () => {
             <Banner Icon={Transcribe} Text="Transcribed" totalServed="50" />
             <Banner Icon={Saved} Text="Saved" totalServed="20" />
           </div>
-          <div className="flex basis-[40%] border border-blue-700">
-            Recent Files
+          <div className="flex basis-[50%] border bg-[#ffffff]">
+            <HistoryTable />
           </div>
         </div>
       </div>

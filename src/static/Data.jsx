@@ -1,0 +1,42 @@
+export const dummyTableData = [
+  {
+    Name: "Recep",
+    Type: "Audio",
+    Duration: "20sec",
+    DateCreated: "1/5/2023",
+    LastUpdate: "1/6/2023",
+    Action: "Transcribed",
+  },
+  {
+    Name: "Shakib",
+    Type: "Audio",
+    Duration: "30sec",
+    DateCreated: "1/3/2023",
+    LastUpdate: "1/7/2023",
+    Action: "Deleted",
+  },
+  {
+    Name: "Humayun",
+    Type: "Audio",
+    Duration: "40sec",
+    DateCreated: "1/2/2023",
+    LastUpdate: "1/8/2023",
+    Action: "Running",
+  },
+  {
+    Name: "Kibria",
+    Type: "Audio",
+    Duration: "50sec",
+    DateCreated: "1/7/2023",
+    LastUpdate: "1/8/2023",
+    Action: "Transcribed",
+  },
+  {
+    Name: "Muhammad",
+    Type: "Audio",
+    Duration: "45sec",
+    DateCreated: "1/6/2023",
+    LastUpdate: "1/8/2023",
+    Action: "Transcribed",
+  },
+];
