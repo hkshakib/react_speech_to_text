@@ -7,7 +7,7 @@ const Search = () => {
         <div className="flex items-center p-2 relative">
           <input
             type="text"
-            placeholder="Search"
+            placeholder="Search here..."
             className="bg-gray-100 p-2 pl-10 h-[40px] w-[629px] focus:outline-none"
           />
           <svg
