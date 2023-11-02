@@ -6,10 +6,20 @@ import Upload from "../static/upload.svg";
 const Utility = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedFile, setSelectedFile] = useState(null);
+  const [transcriptionResult, setTranscriptionResult] = useState(null);
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];
     setSelectedFile(file);
+  };
+
+  const handleTranscribe = () => {
+    if (selectedFile) {
+      setTranscriptionResult(transcriptionResult);
+      console.log(selectedFile);
+    } else {
+      alert("Please upload a file before transcribing.");
+    }
   };
 
   const handleDrop = (e) => {
@@ -132,7 +142,10 @@ const Utility = () => {
                   <button
                     className="text-white w-full bg-[#D0D5DD] font-bold text-sm px-6 py-3 rounded outline-none mr-1 mb-1"
                     type="button"
-                    onClick={() => setShowModal(false)}
+                    onClick={() => {
+                      setShowModal(false);
+                      handleTranscribe();
+                    }}
                   >
                     Transcribed file
                   </button>
