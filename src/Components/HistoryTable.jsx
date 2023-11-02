@@ -23,7 +23,7 @@ const HistoryTable = () => {
             <span className="TableRow">Type</span>
             <span className="TableRow">Duration</span>
             <span className="TableRow">Date Created</span>
-            <span className="TableRow">Last Update</span>
+            <span className="TableRow">Last Updated</span>
             <span className="TableRow">Action</span>
           </div>
           {dummyTableData.map((data, index) => (
