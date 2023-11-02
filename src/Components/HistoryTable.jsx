@@ -1,6 +1,6 @@
 import React from "react";
-import Icon from "../static/divider.svg";
 import { dummyTableData } from "../static/Data";
+import Icon from "../static/divider.svg";
 
 const HistoryTable = () => {
   return (

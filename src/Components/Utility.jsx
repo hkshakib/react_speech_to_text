@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Cross from "../static/Cross.svg";
-import Upload from "../static/upload.svg";
 import Icon from "../static/divider.svg";
+import Upload from "../static/upload.svg";
 
 const Utility = () => {
   const [showModal, setShowModal] = useState(false);
