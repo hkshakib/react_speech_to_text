@@ -32,7 +32,7 @@ const Utility = () => {
         <span className="text-[24px] font-semibold leading-7">
           Welcome Shakirat
         </span>
-        <span className="leading-6 font-normal">
+        <span className="leading-6 font-normal text-[#475367]">
           Upload your audio and video to convert your text
         </span>
       </div>

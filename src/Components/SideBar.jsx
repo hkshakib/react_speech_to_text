@@ -10,11 +10,11 @@ const SideBar = () => {
   return (
     <div className="flex flex-col basis-[100%] justify-center items-center bg-[#ffffff]">
       <div className="flex w-full justify-center text-[30px] text-[#0048ad] font-bold mb-4 mt-4">
-        <span className="flex basis-[50%]">abc firm</span>
+        <span className="flex basis-[50%] text-[24px]">abc firm</span>
         <span className="flex"></span>
       </div>
-      <div className="flex h-[600px] flex-col">
-        <button className="SideBarButton">
+      <div className="flex h-[600px] flex-col ">
+        <button className="SideBarButton bg-[#E0EDFF]">
           <img src={Home} alt="" />
           Home
         </button>
