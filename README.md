@@ -8,6 +8,7 @@ This project provides a simple web-based utility (Only UI) to transcribe audio a
 
 ## LIVE DEMO
 
+You can try out the live demo of this project [here](https://react-speech-to-text-mu.vercel.app/).
 
 ## Getting Started
 
