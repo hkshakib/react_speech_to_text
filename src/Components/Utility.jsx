@@ -91,7 +91,7 @@ const Utility = () => {
                     />
                     <input
                       type="file"
-                      accept=".pdf,.doc,.docx"
+                      accept=".mp3,.mp4,.wav,.caf,.aiff,.avi,.rmvb,.flv,.m4a,.mov,.wmv,.wma"
                       className="hidden"
                       onChange={handleFileChange}
                       id="fileInput"
