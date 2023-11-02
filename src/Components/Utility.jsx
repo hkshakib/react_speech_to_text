@@ -67,7 +67,7 @@ const Utility = () => {
                   <div className="flex flex-col gap-2">
                     <span>Transcription Language</span>
                     <select className="border h-[52px] p-2">
-                      <option disabled>Choose Trancription Language</option>
+                      <option>Default</option>
                       <option>Bengali</option>
                       <option>English</option>
                       <option>Turkish</option>
@@ -130,11 +130,11 @@ const Utility = () => {
                 </div>
                 <div className="flex items-center justify-end p-6 rounded-b">
                   <button
-                    className="text-white w-full bg-yellow-500 active:bg-yellow-700 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    className="text-white w-full bg-[#D0D5DD] font-bold text-sm px-6 py-3 rounded outline-none mr-1 mb-1"
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
-                    Transcribed
+                    Transcribed file
                   </button>
                 </div>
               </div>
