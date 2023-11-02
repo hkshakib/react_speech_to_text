@@ -98,14 +98,14 @@ const Utility = () => {
                     />
                     <p className="text-gray-600">
                       <span className="text-blue-600 text-sm">
-                        click to upload
+                        Click to upload
                       </span>
                       <span className="text-[14px]"> or Drag & Drop</span>
                     </p>
-                    <p className="text-[12px]">
+                    <p className="text-[12px] text-[#98A2B3]">
                       The maximum size is 1GB for audio and 10GB for Videos.{" "}
                     </p>
-                    <p className="text-[12px]">
+                    <p className="text-[12px] text-[#98A2B3]">
                       Supported formats: mp3, mp4, wav, caf, aiff, avi, rmvb,
                       flv, m4a, mov, wmv, wma{" "}
                     </p>
